@@ -5,6 +5,7 @@ const PRIORITIES = [
   { key: "mid", label: "Mid", color: "#D4A24C" },
   { key: "high", label: "High", color: "#C86B4A" },
 ];
+
 function Composer() {
     const [input,setInput]=useState("");
     const [priority,setPriority]=useState("mid");
@@ -61,6 +62,7 @@ function Composer() {
                 </button>
             ))}
         </div>
+       
     </div>
   )
 }
