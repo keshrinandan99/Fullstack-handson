@@ -1,4 +1,4 @@
-import React from 'react'
+﻿import React from 'react'
 import Composer from './Composer.jsx'
 import Title from './Title'
 import Tabs from './Tabs.jsx'
@@ -10,7 +10,7 @@ function Main() {
       flex: 1,
       display: 'flex',
       justifyContent: 'center',
-      padding: '40px 20px',
+      padding: '64px 32px',
       background: '#14171C',
       color: '#8B8F97',
     }}>
@@ -25,7 +25,7 @@ function Main() {
         }
         .task-row:hover .del-btn { opacity: 1; }
       `}</style>
-      <div style={{ width: '100%', maxWidth: 720, display: 'flex', flexDirection: 'column', flex: 1 }}>
+      <div style={{ width: '100%', maxWidth: 920, display: 'flex', flexDirection: 'column', flex: 1 }}>
         <Title />
         <Composer />
         <Tabs />
